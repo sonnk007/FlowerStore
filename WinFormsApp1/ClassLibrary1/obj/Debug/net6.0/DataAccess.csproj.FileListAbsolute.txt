@@ -1,0 +1,12 @@
+D:\flowerStore\WinFormsApp1\ClassLibrary1\bin\Debug\net6.0\DataAccess.deps.json
+D:\flowerStore\WinFormsApp1\ClassLibrary1\bin\Debug\net6.0\DataAccess.dll
+D:\flowerStore\WinFormsApp1\ClassLibrary1\bin\Debug\net6.0\DataAccess.pdb
+D:\flowerStore\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\flowerStore\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\flowerStore\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\flowerStore\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\flowerStore\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\flowerStore\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\DataAccess.dll
+D:\flowerStore\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\refint\DataAccess.dll
+D:\flowerStore\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\DataAccess.pdb
+D:\flowerStore\WinFormsApp1\ClassLibrary1\obj\Debug\net6.0\ref\DataAccess.dll
