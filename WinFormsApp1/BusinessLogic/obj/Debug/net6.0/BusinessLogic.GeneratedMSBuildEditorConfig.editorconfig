@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BusinessLogic
-build_property.ProjectDir = D:\flowerStore\WinFormsApp1\BusinessLogic\
+build_property.ProjectDir = D:\flowerStore\FlowerShop\WinFormsApp1\BusinessLogic\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

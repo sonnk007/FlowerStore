@@ -17,45 +17,39 @@ namespace WinFormsApp1
         private void InitializeComponent()
         {
             panel2 = new Panel();
+            label6 = new Label();
             panel3 = new Panel();
+            LoadEmpData = new Button();
+            DelEmp = new Button();
+            EditEmp = new Button();
+            AddEmp = new Button();
+            female = new RadioButton();
+            male = new RadioButton();
+            label8 = new Label();
+            dob = new DateTimePicker();
+            tbAddress = new TextBox();
+            label7 = new Label();
+            label5 = new Label();
+            tbName = new TextBox();
+            label4 = new Label();
             tbUID = new TextBox();
             label3 = new Label();
             label1 = new Label();
             panel4 = new Panel();
-            label2 = new Label();
+            SearchEmp = new Button();
+            tbSearchEmp = new TextBox();
             panel5 = new Panel();
-            listView1 = new ListView();
-            columnHeader1 = new ColumnHeader();
-            columnHeader2 = new ColumnHeader();
-            columnHeader3 = new ColumnHeader();
-            columnHeader4 = new ColumnHeader();
-            columnHeader5 = new ColumnHeader();
-            columnHeader6 = new ColumnHeader();
+            label9 = new Label();
+            label2 = new Label();
             panel6 = new Panel();
             panel7 = new Panel();
-            label4 = new Label();
-            tbName = new TextBox();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            tbAddress = new TextBox();
-            dob = new DateTimePicker();
-            label8 = new Label();
-            male = new RadioButton();
-            female = new RadioButton();
-            AddEmp = new Button();
-            EditEmp = new Button();
-            DelEmp = new Button();
-            label9 = new Label();
-            tbSearchEmp = new TextBox();
-            SearchEmp = new Button();
-            LoadEmpData = new Button();
             panel1 = new Panel();
+            dataGridView1 = new DataGridView();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
-            panel5.SuspendLayout();
             panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -63,8 +57,20 @@ namespace WinFormsApp1
             panel2.Controls.Add(label6);
             panel2.Location = new Point(196, 1);
             panel2.Name = "panel2";
-            panel2.Size = new Size(869, 74);
+            panel2.Size = new Size(940, 74);
             panel2.TabIndex = 1;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(27, 17);
+            label6.Name = "label6";
+            label6.Size = new Size(193, 41);
+            label6.TabIndex = 1;
+            label6.Text = "Flower Shop";
+            label6.TextAlign = ContentAlignment.MiddleCenter;
+            label6.UseWaitCursor = true;
             // 
             // panel3
             // 
@@ -88,6 +94,125 @@ namespace WinFormsApp1
             panel3.Name = "panel3";
             panel3.Size = new Size(331, 559);
             panel3.TabIndex = 2;
+            // 
+            // LoadEmpData
+            // 
+            LoadEmpData.Location = new Point(6, 306);
+            LoadEmpData.Name = "LoadEmpData";
+            LoadEmpData.Size = new Size(317, 29);
+            LoadEmpData.TabIndex = 16;
+            LoadEmpData.Text = "Cập Nhật Dữ Liệu";
+            LoadEmpData.UseVisualStyleBackColor = true;
+            LoadEmpData.Click += LoadEmpData_Click;
+            // 
+            // DelEmp
+            // 
+            DelEmp.Location = new Point(231, 252);
+            DelEmp.Name = "DelEmp";
+            DelEmp.Size = new Size(94, 29);
+            DelEmp.TabIndex = 15;
+            DelEmp.Text = "Xoá";
+            DelEmp.UseVisualStyleBackColor = true;
+            DelEmp.Click += DelEmp_Click;
+            // 
+            // EditEmp
+            // 
+            EditEmp.Location = new Point(117, 252);
+            EditEmp.Name = "EditEmp";
+            EditEmp.Size = new Size(94, 29);
+            EditEmp.TabIndex = 14;
+            EditEmp.Text = "Sửa";
+            EditEmp.UseVisualStyleBackColor = true;
+            EditEmp.Click += EditEmp_Click;
+            // 
+            // AddEmp
+            // 
+            AddEmp.Location = new Point(6, 252);
+            AddEmp.Name = "AddEmp";
+            AddEmp.Size = new Size(94, 29);
+            AddEmp.TabIndex = 13;
+            AddEmp.Text = "Thêm";
+            AddEmp.UseVisualStyleBackColor = true;
+            AddEmp.Click += AddEmp_Click;
+            // 
+            // female
+            // 
+            female.AutoSize = true;
+            female.Location = new Point(152, 207);
+            female.Name = "female";
+            female.Size = new Size(50, 24);
+            female.TabIndex = 12;
+            female.TabStop = true;
+            female.Text = "Nữ";
+            female.UseVisualStyleBackColor = true;
+            // 
+            // male
+            // 
+            male.AutoSize = true;
+            male.Location = new Point(84, 207);
+            male.Name = "male";
+            male.Size = new Size(62, 24);
+            male.TabIndex = 11;
+            male.TabStop = true;
+            male.Text = "Nam";
+            male.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(6, 209);
+            label8.Name = "label8";
+            label8.Size = new Size(68, 20);
+            label8.TabIndex = 10;
+            label8.Text = "Giới Tính";
+            // 
+            // dob
+            // 
+            dob.Location = new Point(84, 131);
+            dob.Name = "dob";
+            dob.Size = new Size(239, 27);
+            dob.TabIndex = 9;
+            // 
+            // tbAddress
+            // 
+            tbAddress.Location = new Point(84, 166);
+            tbAddress.Name = "tbAddress";
+            tbAddress.Size = new Size(239, 27);
+            tbAddress.TabIndex = 8;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(6, 169);
+            label7.Name = "label7";
+            label7.Size = new Size(57, 20);
+            label7.TabIndex = 7;
+            label7.Text = "Địa Chỉ";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(3, 131);
+            label5.Name = "label5";
+            label5.Size = new Size(76, 20);
+            label5.TabIndex = 5;
+            label5.Text = "Ngày Sinh";
+            // 
+            // tbName
+            // 
+            tbName.Location = new Point(84, 90);
+            tbName.Name = "tbName";
+            tbName.Size = new Size(239, 27);
+            tbName.TabIndex = 4;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(4, 93);
+            label4.Name = "label4";
+            label4.Size = new Size(75, 20);
+            label4.TabIndex = 3;
+            label4.Text = "Họ và Tên";
             // 
             // tbUID
             // 
@@ -121,12 +246,46 @@ namespace WinFormsApp1
             // 
             panel4.Controls.Add(SearchEmp);
             panel4.Controls.Add(tbSearchEmp);
+            panel4.Controls.Add(panel5);
             panel4.Controls.Add(label9);
             panel4.Controls.Add(label2);
             panel4.Location = new Point(527, 76);
             panel4.Name = "panel4";
-            panel4.Size = new Size(538, 117);
+            panel4.Size = new Size(609, 117);
             panel4.TabIndex = 3;
+            // 
+            // SearchEmp
+            // 
+            SearchEmp.Location = new Point(417, 47);
+            SearchEmp.Name = "SearchEmp";
+            SearchEmp.Size = new Size(94, 29);
+            SearchEmp.TabIndex = 14;
+            SearchEmp.Text = "Tìm";
+            SearchEmp.UseVisualStyleBackColor = true;
+            SearchEmp.Click += SearchEmp_Click;
+            // 
+            // tbSearchEmp
+            // 
+            tbSearchEmp.Location = new Point(116, 49);
+            tbSearchEmp.Name = "tbSearchEmp";
+            tbSearchEmp.Size = new Size(270, 27);
+            tbSearchEmp.TabIndex = 9;
+            // 
+            // panel5
+            // 
+            panel5.Location = new Point(0, 115);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(538, 444);
+            panel5.TabIndex = 4;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(6, 52);
+            label9.Name = "label9";
+            label9.Size = new Size(104, 20);
+            label9.TabIndex = 2;
+            label9.Text = "Tên Nhân Viên";
             // 
             // label2
             // 
@@ -139,23 +298,6 @@ namespace WinFormsApp1
             label2.Text = "Tìm Kiếm";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             label2.UseWaitCursor = true;
-            // 
-            // panel5
-            // 
-            panel5.Controls.Add(listView1);
-            panel5.Location = new Point(527, 191);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(538, 444);
-            panel5.TabIndex = 4;
-            // 
-            // listView1
-            // 
-            listView1.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4, columnHeader5, columnHeader6 });
-            listView1.Location = new Point(3, 3);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(532, 438);
-            listView1.TabIndex = 0;
-            listView1.UseCompatibleStateImageBehavior = false;
             // 
             // panel6
             // 
@@ -172,163 +314,6 @@ namespace WinFormsApp1
             panel7.Size = new Size(196, 488);
             panel7.TabIndex = 1;
             // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(4, 93);
-            label4.Name = "label4";
-            label4.Size = new Size(75, 20);
-            label4.TabIndex = 3;
-            label4.Text = "Họ và Tên";
-            // 
-            // tbName
-            // 
-            tbName.Location = new Point(84, 90);
-            tbName.Name = "tbName";
-            tbName.Size = new Size(239, 27);
-            tbName.TabIndex = 4;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(3, 131);
-            label5.Name = "label5";
-            label5.Size = new Size(76, 20);
-            label5.TabIndex = 5;
-            label5.Text = "Ngày Sinh";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(27, 17);
-            label6.Name = "label6";
-            label6.Size = new Size(193, 41);
-            label6.TabIndex = 1;
-            label6.Text = "Flower Shop";
-            label6.TextAlign = ContentAlignment.MiddleCenter;
-            label6.UseWaitCursor = true;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(6, 169);
-            label7.Name = "label7";
-            label7.Size = new Size(57, 20);
-            label7.TabIndex = 7;
-            label7.Text = "Địa Chỉ";
-            // 
-            // tbAddress
-            // 
-            tbAddress.Location = new Point(84, 166);
-            tbAddress.Name = "tbAddress";
-            tbAddress.Size = new Size(239, 27);
-            tbAddress.TabIndex = 8;
-            // 
-            // dob
-            // 
-            dob.Location = new Point(84, 131);
-            dob.Name = "dob";
-            dob.Size = new Size(239, 27);
-            dob.TabIndex = 9;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(6, 209);
-            label8.Name = "label8";
-            label8.Size = new Size(68, 20);
-            label8.TabIndex = 10;
-            label8.Text = "Giới Tính";
-            // 
-            // male
-            // 
-            male.AutoSize = true;
-            male.Location = new Point(84, 207);
-            male.Name = "male";
-            male.Size = new Size(62, 24);
-            male.TabIndex = 11;
-            male.TabStop = true;
-            male.Text = "Nam";
-            male.UseVisualStyleBackColor = true;
-            // 
-            // female
-            // 
-            female.AutoSize = true;
-            female.Location = new Point(152, 207);
-            female.Name = "female";
-            female.Size = new Size(50, 24);
-            female.TabIndex = 12;
-            female.TabStop = true;
-            female.Text = "Nữ";
-            female.UseVisualStyleBackColor = true;
-            // 
-            // AddEmp
-            // 
-            AddEmp.Location = new Point(6, 252);
-            AddEmp.Name = "AddEmp";
-            AddEmp.Size = new Size(94, 29);
-            AddEmp.TabIndex = 13;
-            AddEmp.Text = "Thêm";
-            AddEmp.UseVisualStyleBackColor = true;
-            AddEmp.Click += AddEmp_Click;
-            // 
-            // EditEmp
-            // 
-            EditEmp.Location = new Point(117, 252);
-            EditEmp.Name = "EditEmp";
-            EditEmp.Size = new Size(94, 29);
-            EditEmp.TabIndex = 14;
-            EditEmp.Text = "Sửa";
-            EditEmp.UseVisualStyleBackColor = true;
-            EditEmp.Click += EditEmp_Click;
-            // 
-            // DelEmp
-            // 
-            DelEmp.Location = new Point(231, 252);
-            DelEmp.Name = "DelEmp";
-            DelEmp.Size = new Size(94, 29);
-            DelEmp.TabIndex = 15;
-            DelEmp.Text = "Xoá";
-            DelEmp.UseVisualStyleBackColor = true;
-            DelEmp.Click += DelEmp_Click;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(6, 52);
-            label9.Name = "label9";
-            label9.Size = new Size(104, 20);
-            label9.TabIndex = 2;
-            label9.Text = "Tên Nhân Viên";
-            // 
-            // tbSearchEmp
-            // 
-            tbSearchEmp.Location = new Point(116, 49);
-            tbSearchEmp.Name = "tbSearchEmp";
-            tbSearchEmp.Size = new Size(270, 27);
-            tbSearchEmp.TabIndex = 9;
-            // 
-            // SearchEmp
-            // 
-            SearchEmp.Location = new Point(417, 47);
-            SearchEmp.Name = "SearchEmp";
-            SearchEmp.Size = new Size(94, 29);
-            SearchEmp.TabIndex = 14;
-            SearchEmp.Text = "Tìm";
-            SearchEmp.UseVisualStyleBackColor = true;
-            SearchEmp.Click += SearchEmp_Click;
-            // 
-            // LoadEmpData
-            // 
-            LoadEmpData.Location = new Point(6, 306);
-            LoadEmpData.Name = "LoadEmpData";
-            LoadEmpData.Size = new Size(317, 29);
-            LoadEmpData.TabIndex = 16;
-            LoadEmpData.Text = "Cập Nhật Dữ Liệu";
-            LoadEmpData.UseVisualStyleBackColor = true;
-            LoadEmpData.Click += LoadEmpData_Click;
-            // 
             // panel1
             // 
             panel1.Location = new Point(0, 150);
@@ -336,14 +321,24 @@ namespace WinFormsApp1
             panel1.Size = new Size(196, 485);
             panel1.TabIndex = 5;
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(530, 194);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.RowTemplate.Height = 29;
+            dataGridView1.Size = new Size(606, 438);
+            dataGridView1.TabIndex = 6;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1065, 635);
+            ClientSize = new Size(1137, 635);
+            Controls.Add(dataGridView1);
             Controls.Add(panel1);
             Controls.Add(panel6);
-            Controls.Add(panel5);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel2);
@@ -355,8 +350,8 @@ namespace WinFormsApp1
             panel3.PerformLayout();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
-            panel5.ResumeLayout(false);
             panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
@@ -368,13 +363,6 @@ namespace WinFormsApp1
         private Panel panel6;
         private Panel panel7;
         private Label label2;
-        private ListView listView1;
-        private ColumnHeader columnHeader1;
-        private ColumnHeader columnHeader2;
-        private ColumnHeader columnHeader3;
-        private ColumnHeader columnHeader4;
-        private ColumnHeader columnHeader5;
-        private ColumnHeader columnHeader6;
         private TextBox tbUID;
         private Label label3;
         private Label label5;
@@ -395,5 +383,6 @@ namespace WinFormsApp1
         private Button SearchEmp;
         private TextBox tbSearchEmp;
         private Panel panel1;
+        private DataGridView dataGridView1;
     }
 }

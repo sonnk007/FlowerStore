@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "Connect": "server=DESKTOP-2023TWE;database=FlowerShop;user=sa;password=123456"
+  }
+}

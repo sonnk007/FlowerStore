@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\flowerStore\\WinFormsApp1\\",
+  "WorkspaceRootPath": "D:\\flowerStore\\FlowerShop\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{006A6241-295C-42CA-B90F-949CF38B411F}|ClassLibrary1\\DataAccess.csproj|d:\\flowerstore\\winformsapp1\\classlibrary1\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{006A6241-295C-42CA-B90F-949CF38B411F}|ClassLibrary1\\DataAccess.csproj|solutionrelative:classlibrary1\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE43053F-9DC9-44A2-A70C-4AB1CF87AAEC}|WinFormsApp1\\WinFormsApp1.csproj|d:\\flowerstore\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EE43053F-9DC9-44A2-A70C-4AB1CF87AAEC}|WinFormsApp1\\WinFormsApp1.csproj|D:\\flowerStore\\FlowerShop\\WinFormsApp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EE43053F-9DC9-44A2-A70C-4AB1CF87AAEC}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE43053F-9DC9-44A2-A70C-4AB1CF87AAEC}|WinFormsApp1\\WinFormsApp1.csproj|D:\\flowerStore\\WinFormsApp1\\winformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE43053F-9DC9-44A2-A70C-4AB1CF87AAEC}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4911B75F-F2BB-48D9-A3E5-DE211DDAC3AB}|BusinessLogic\\BusinessLogic.csproj|d:\\flowerstore\\flowershop\\winformsapp1\\businesslogic\\feature\\userbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4911B75F-F2BB-48D9-A3E5-DE211DDAC3AB}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\feature\\userbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE43053F-9DC9-44A2-A70C-4AB1CF87AAEC}|WinFormsApp1\\WinFormsApp1.csproj|D:\\flowerStore\\WinFormsApp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE43053F-9DC9-44A2-A70C-4AB1CF87AAEC}|WinFormsApp1\\WinFormsApp1.csproj|d:\\flowerstore\\flowershop\\winformsapp1\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE43053F-9DC9-44A2-A70C-4AB1CF87AAEC}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{006A6241-295C-42CA-B90F-949CF38B411F}|ClassLibrary1\\DataAccess.csproj|d:\\flowerstore\\flowershop\\winformsapp1\\classlibrary1\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{006A6241-295C-42CA-B90F-949CF38B411F}|ClassLibrary1\\DataAccess.csproj|solutionrelative:classlibrary1\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE43053F-9DC9-44A2-A70C-4AB1CF87AAEC}|WinFormsApp1\\WinFormsApp1.csproj|d:\\flowerstore\\flowershop\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE43053F-9DC9-44A2-A70C-4AB1CF87AAEC}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,57 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 204,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataAccess",
-              "DocumentMoniker": "D:\\flowerStore\\WinFormsApp1\\ClassLibrary1\\DataAccess.csproj",
-              "RelativeDocumentMoniker": "ClassLibrary1\\DataAccess.csproj",
-              "ToolTip": "D:\\flowerStore\\WinFormsApp1\\ClassLibrary1\\DataAccess.csproj",
-              "RelativeToolTip": "ClassLibrary1\\DataAccess.csproj",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\flowerStore\\FlowerShop\\WinFormsApp1\\WinFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
+              "ToolTip": "D:\\flowerStore\\FlowerShop\\WinFormsApp1\\WinFormsApp1\\Program.cs",
+              "RelativeToolTip": "WinFormsApp1\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-06T15:20:07.844Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T13:19:20.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\flowerStore\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "D:\\flowerStore\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAYwAsAAAAAAAAA",
+              "Title": "UserDAO.cs",
+              "DocumentMoniker": "D:\\flowerStore\\FlowerShop\\WinFormsApp1\\ClassLibrary1\\DAO\\UserDAO.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\DAO\\UserDAO.cs",
+              "ToolTip": "D:\\flowerStore\\FlowerShop\\WinFormsApp1\\ClassLibrary1\\DAO\\UserDAO.cs",
+              "RelativeToolTip": "ClassLibrary1\\DAO\\UserDAO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T12:45:27.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\flowerStore\\WinFormsApp1\\WinFormsApp1\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.Designer.cs",
-              "ToolTip": "D:\\flowerStore\\WinFormsApp1\\WinFormsApp1\\Form1.Designer.cs",
-              "RelativeToolTip": "WinFormsApp1\\Form1.Designer.cs",
-              "ViewState": "AQIAAIYBAAAAAAAAAAAYwKIAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T12:47:12.376Z",
+              "WhenOpened": "2024-05-07T13:17:46.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\flowerStore\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "Title": "UserBusinessLogic.cs",
+              "DocumentMoniker": "D:\\flowerStore\\FlowerShop\\WinFormsApp1\\BusinessLogic\\Feature\\UserBusinessLogic.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Feature\\UserBusinessLogic.cs",
+              "ToolTip": "D:\\flowerStore\\FlowerShop\\WinFormsApp1\\BusinessLogic\\Feature\\UserBusinessLogic.cs",
+              "RelativeToolTip": "BusinessLogic\\Feature\\UserBusinessLogic.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T13:15:20.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\flowerStore\\FlowerShop\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "D:\\flowerStore\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Design]",
+              "ToolTip": "D:\\flowerStore\\FlowerShop\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T17:04:43.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\flowerStore\\FlowerShop\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\flowerStore\\FlowerShop\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T12:16:18.746Z",
+              "WhenOpened": "2024-05-06T15:53:07.098Z",
               "EditorCaption": " [Design]"
             }
           ]
